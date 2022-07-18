@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/grants-reach-react/static/css/main.ec252721.css",
+    "main.js": "/grants-reach-react/static/js/main.326b94dd.js",
+    "static/media/mainBackground.webp": "/grants-reach-react/static/media/mainBackground.9f53629b37fbfa668ecd.webp",
+    "static/media/logo.png": "/grants-reach-react/static/media/logo.856b1f4258656a67594f.png",
+    "index.html": "/grants-reach-react/index.html",
+    "static/media/check.svg": "/grants-reach-react/static/media/check.a6178c669e962326a958620b3398007e.svg",
+    "main.ec252721.css.map": "/grants-reach-react/static/css/main.ec252721.css.map",
+    "main.326b94dd.js.map": "/grants-reach-react/static/js/main.326b94dd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec252721.css",
+    "static/js/main.326b94dd.js"
+  ]
+}
