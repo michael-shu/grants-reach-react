@@ -19,6 +19,8 @@ import Repair from './images/homeRepair.png';
 
 import Card from 'react-bootstrap/Card';
 
+import React, {useState} from 'react';
+
 function App() {
 
   const cardContent = [
@@ -59,6 +61,8 @@ function App() {
     }
 
   ]
+
+  const [disclaimer,setDisclaimer] = useState(false);
 
   return (
     <div id="parent">
@@ -114,9 +118,18 @@ function App() {
         <Card id="disclaimer">
           <Card.Header><h1>Disclaimer</h1></Card.Header>
           <Card.Text>Grantsreach is a privately held for-profit entity and has no affiliation or relationship with the United States Government or U.S. Department of Education.
-            Grantsreach offers links to other third-party websites and service</Card.Text>
+            Grantsreach offers links to other third-party websites and service
 
+            {disclaimer ? <span>as helpful resources to locate internet content that may be of interest to you. We may receive an affiliate 
+            commission for referrals by you using such links. We pay our operating costs through our advertising revenue by having third-party affiliate offers. Grantsreach advises that you 
+            not pay for any third part service that is provided to third parties’ websites and/or services through Grantsreach are managed by such third parties. For more information on 
+            government education grants, visit https://studentaid.ed.gov/sa/types/grants-scholarships/pell 
+            </span> : <span></span>}
 
+            <a id = "smLink" onClick = {() => setDisclaimer(!disclaimer)}>
+              {disclaimer ? <span> show less</span> : <span> show more</span>}
+            </a>
+            </Card.Text>
         </Card>
 
       </Container>

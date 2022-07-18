@@ -21,7 +21,7 @@
   border-radius: 25px;
   padding: 25px;
   max-width: 75%;
-  height: 550px;
+  height: 600px;
 }
 
 
@@ -181,14 +181,9 @@
   padding: 15px;
 }
 
-#rmButton {
+#smLink {
   border: none;
   color: rgba(153, 153, 153, 0.802);
   margin: none;
   padding: none;
-}
-
-[aria-expanded="false"]>.expanded,
-[aria-expanded="true"]>.collapsed {
-  display: none;
 }
